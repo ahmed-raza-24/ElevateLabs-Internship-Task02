@@ -1,0 +1,30 @@
+Phishing Email Header Analysis Report
+=====================================
+
+📧 Subject: Microsoft account unusual signin activity
+
+🔹 From: Microsoft account team <no-reply@access-accsecurity.com>
+🔹 Reply-To: sotrecognizd@gmail.com
+🔹 Return-Path: bounce@thcultarfdes.co.uk
+🔹 X-Sender-IP: 89.144.44.2
+
+🛡 Authentication Results:
+- SPF: none (thcultarfdes.co.uk does not designate permitted sender hosts)
+- DKIM: none (message not signed)
+- DMARC: permerror (permanent error in policy evaluation)
+
+🔎 Observations:
+- Sender domain (access-accsecurity.com) is not a legitimate Microsoft domain.
+- Reply-To address points to a Gmail account – suspicious for corporate communication.
+- Return-Path and originating IP (89.144.44.2) do not match trusted Microsoft servers.
+- All email authentication checks failed (SPF, DKIM, DMARC).
+- Subject line uses urgency ("unusual sign-in activity") to manipulate recipient.
+
+✅ Conclusion:
+The email header analysis reveals multiple phishing indicators:
+• Forged sender identity
+• Authentication failures
+• Redirection to personal Gmail account
+• Untrusted sending server
+
+This email is highly likely to be a phishing attempt and should not be trusted.
